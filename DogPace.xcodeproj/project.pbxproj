@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069186827F305526590E46D5 /* WhoopBLE in Frameworks */ = {isa = PBXBuildFile; productRef = B5B79132E286759A44F9E4AE /* WhoopBLE */; };
+		35A0DC483308D00B8F56987E /* StrapSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA3203CBA8614CEDB155E0 /* StrapSession.swift */; };
+		E4766411BD6493E7AC3DDEA2 /* DogPaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154DAF8F7CE5125DC32BF04E /* DogPaceApp.swift */; };
+		F6DE1DFFF0070A08A63C6491 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DE7E9F33C33DEA362A52E7 /* ContentView.swift */; };
+		F7A1477B89D4870F608CFE64 /* DogPaceCore in Frameworks */ = {isa = PBXBuildFile; productRef = 563653B991E4A277A42A449B /* DogPaceCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10DE7E9F33C33DEA362A52E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		154DAF8F7CE5125DC32BF04E /* DogPaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPaceApp.swift; sourceTree = "<group>"; };
+		3ECA3203CBA8614CEDB155E0 /* StrapSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrapSession.swift; sourceTree = "<group>"; };
+		62701B6E1E1F29FC97CD0AC1 /* Asherlc__whoop-ble-swift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Asherlc__whoop-ble-swift"; path = "../src/Asherlc__whoop-ble-swift"; sourceTree = SOURCE_ROOT; };
+		ACF01D4732A14375D12E23C6 /* dog-pace */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "dog-pace"; path = .; sourceTree = SOURCE_ROOT; };
+		B0F4CA58033C54A05957D4AA /* DogPace.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DogPace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3106979470A8D5554A1BBCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A1477B89D4870F608CFE64 /* DogPaceCore in Frameworks */,
+				069186827F305526590E46D5 /* WhoopBLE in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E9086DD8E269DE6C50643FF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				62701B6E1E1F29FC97CD0AC1 /* Asherlc__whoop-ble-swift */,
+				ACF01D4732A14375D12E23C6 /* dog-pace */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D2BFCD636F0A0443BD6D6148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4CA58033C54A05957D4AA /* DogPace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8DB3D4E98727A4ED321462 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				10DE7E9F33C33DEA362A52E7 /* ContentView.swift */,
+				154DAF8F7CE5125DC32BF04E /* DogPaceApp.swift */,
+				3ECA3203CBA8614CEDB155E0 /* StrapSession.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F701212B2E34DF7CA869D729 = {
+			isa = PBXGroup;
+			children = (
+				EF8DB3D4E98727A4ED321462 /* App */,
+				0E9086DD8E269DE6C50643FF /* Packages */,
+				D2BFCD636F0A0443BD6D6148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC23780D571FD484E0BC1D85 /* DogPace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FB4666FF51868F04341AE9 /* Build configuration list for PBXNativeTarget "DogPace" */;
+			buildPhases = (
+				CEB44B04FEC4FB9431760EA9 /* Sources */,
+				3106979470A8D5554A1BBCBF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogPace;
+			packageProductDependencies = (
+				563653B991E4A277A42A449B /* DogPaceCore */,
+				B5B79132E286759A44F9E4AE /* WhoopBLE */,
+			);
+			productName = DogPace;
+			productReference = B0F4CA58033C54A05957D4AA /* DogPace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067FC1910CD5CCC709A5C090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FC23780D571FD484E0BC1D85 = {
+						DevelopmentTeam = DUW4CY9S3L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 729373EA491DAC68C5F77196 /* Build configuration list for PBXProject "DogPace" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F701212B2E34DF7CA869D729;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D26F616D8B108BE4F1BE3FDF /* XCLocalSwiftPackageReference "." */,
+				0F5894EDC41F18960F9DC1FA /* XCLocalSwiftPackageReference "../src/Asherlc__whoop-ble-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D2BFCD636F0A0443BD6D6148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC23780D571FD484E0BC1D85 /* DogPace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB44B04FEC4FB9431760EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DE1DFFF0070A08A63C6491 /* ContentView.swift in Sources */,
+				E4766411BD6493E7AC3DDEA2 /* DogPaceApp.swift in Sources */,
+				35A0DC483308D00B8F56987E /* StrapSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B1CD879EDD4A3F186A68C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUW4CY9S3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Dog Pace reads motion from your WHOOP strap to estimate movement and distance.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaredwerba.dogpace;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		345E7A508048953829CEE020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6E6D4D57BF52D8E6A77936E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9B95DFBAFB9655C7A2A5E634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUW4CY9S3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Dog Pace reads motion from your WHOOP strap to estimate movement and distance.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaredwerba.dogpace;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49FB4666FF51868F04341AE9 /* Build configuration list for PBXNativeTarget "DogPace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B95DFBAFB9655C7A2A5E634 /* Debug */,
+				1B1CD879EDD4A3F186A68C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		729373EA491DAC68C5F77196 /* Build configuration list for PBXProject "DogPace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345E7A508048953829CEE020 /* Debug */,
+				6E6D4D57BF52D8E6A77936E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0F5894EDC41F18960F9DC1FA /* XCLocalSwiftPackageReference "../src/Asherlc__whoop-ble-swift" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../src/Asherlc__whoop-ble-swift";
+		};
+		D26F616D8B108BE4F1BE3FDF /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		563653B991E4A277A42A449B /* DogPaceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DogPaceCore;
+		};
+		B5B79132E286759A44F9E4AE /* WhoopBLE */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WhoopBLE;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 067FC1910CD5CCC709A5C090 /* Project object */;
+}
